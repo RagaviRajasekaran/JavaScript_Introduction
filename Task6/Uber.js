@@ -18,11 +18,11 @@ class UberPriceCalculator {
   }
 }
 
-// Example usage:
-const calculator = new UberPriceCalculator(2.5, 1.2, 0.2, 1.5); // Adjust these values accordingly
 
-const distance = 10; // in kilometers
-const time = 20; // in minutes
+const calculator = new UberPriceCalculator(2.5, 1.2, 0.2, 1.5); 
+
+const distance = 10; 
+const time = 20; 
 
 const price = calculator.calculatePrice(distance, time);
 console.log(`Estimated Uber Price: $${price.toFixed(2)}`);
